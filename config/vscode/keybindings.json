@@ -1,0 +1,118 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+      "key": "shift+cmd+k",
+      "command": "-editor.action.deleteLines",
+      "when": "textInputFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+cmd+k",
+      "command": "actions.findWithSelection"
+  },
+  {
+      "key": "cmd+e",
+      "command": "-actions.findWithSelection"
+  },
+  {
+      "key": "shift+cmd+c",
+      "command": "-workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+  },
+  {
+      "key": "alt+cmd+c",
+      "command": "-copyFilePath",
+      "when": "!editorFocus"
+  },
+  {
+      "key": "shift+cmd+c",
+      "command": "copyFilePath",
+      "when": "editorFocus"
+  },
+  {
+      "key": "cmd+k alt+cmd+c",
+      "command": "-copyFilePath",
+      "when": "editorFocus"
+  },
+  {
+      "key": "cmd+y",
+      "command": "redo"
+  },
+  {
+      "key": "shift+cmd+z",
+      "command": "-redo"
+  },
+  {
+      "key": "cmd+e",
+      "command": "editor.action.deleteLines"
+  },
+  {
+      "key": "shift+alt+cmd+c",
+      "command": "-copyRelativeFilePath",
+      "when": "!editorFocus"
+  },
+  {
+      "key": "ctrl+cmd+c",
+      "command": "copyRelativeFilePath",
+      "when": "editorFocus"
+  },
+  {
+      "key": "cmd+k shift+alt+cmd+c",
+      "command": "-copyRelativeFilePath",
+      "when": "editorFocus"
+  },
+  {
+      "key": "shift+cmd+d",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+alt+down",
+      "command": "-editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+cmd+d",
+      "command": "-workbench.view.debug",
+      "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+      "key": "cmd+h",
+      "command": "timeline.focus"
+  },
+  {
+      "key": "cmd+t",
+      "command": "-workbench.action.showAllSymbols"
+  },
+  {
+      "key": "cmd+t",
+      "command": "extension.goToTest",
+      "when": "editorTextFocus"
+  },
+  {
+      "key": "shift+cmd+t",
+      "command": "-extension.goToTest",
+      "when": "editorTextFocus"
+  },
+  {
+      "key": "shift+cmd+t",
+      "command": "workbench.action.reopenClosedEditor",
+      "when": "editorFocus"
+  },
+  {
+      "key": "shift+cmd+t",
+      "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+      "key": "cmd+u",
+      "command": "-cursorUndo",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "cmd+u",
+      "command": "extension.openInGitHub"
+  },
+  {
+      "key": "ctrl+l g",
+      "command": "-extension.openInGitHub"
+  }
+]

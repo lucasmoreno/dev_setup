@@ -1,0 +1,31 @@
+{
+  "redhat.telemetry.enabled": false,
+  "editor.fontFamily": "Monaco, 'Courier New', monospace",
+  "window.title": "${dirty}${folderName}${separator}${activeEditorMedium}",
+  "workbench.editor.enablePreview": false,
+  "gitblame.statusBarMessageFormat": "${commit.summary,60} <${author.name}> (${time.ago})",
+  "goToTest.specFilePatterns": [
+      "{f}.spec{e}",
+      "{f}.test{e}",
+      "{f}-spec{e}",
+      "{f}-test{e}",
+      "{f}_spec{e}",
+      "{f}_test{e}",
+      "{f}_spec{e}"
+  ],
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "workbench.editor.tabCloseButton": "left",
+  "editor.minimap.showSlider": "always",
+  "openInGitHub.gitHubDomain": "gitlab.qonto.co",
+  "openInGitHub.defaultPullRequestBranch": "master",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+  },
+  "settingsSync.ignoredSettings": []
+}
